@@ -1,0 +1,35 @@
+
+.checked{
+    text-decoration: line-through;
+}
+
+.button{
+    border-radius: 8px;
+    color: #555555;
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #000000; /* Black */
+    color: white;
+}
+
+div > ul {
+    color: darkgray;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc !important;
+    padding: 0.01em 16px;
+    border-radius: 16px;
+}
